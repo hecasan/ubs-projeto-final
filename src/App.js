@@ -1,11 +1,8 @@
 import "./App.css";
+import Layout from "./shared/components/Layout";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Teste</h1>
-    </div>
-  );
+  return <Layout />;
 }
 
 export default App;
